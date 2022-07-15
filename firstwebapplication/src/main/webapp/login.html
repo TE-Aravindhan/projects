@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta2-web/css/all.css">
+    <title>login</title>
+</head>
+
+<body>
+    <nav class="navbar" id="nav">
+		<form class="container-fluid justify-content-start">
+		 <a href="./welcome.html"><button class="btn" id="home" type="button">Home</button></a> 
+		  
+		</form>
+	  </nav>
+            <form id="form" action="./log">
+                <div>
+                    <h1 id="t1">
+                       LOGIN 🔓 
+                    </h1>
+                </div>
+                <div class="block"id="adiv">
+                    <i class="fas fa-user icon"></i>
+                    <input class="input" required type="text" name="id" id="id" placeholder="Enter your Employee-Id">
+                </div>
+                <div class="block" id="bdiv">
+                    <i class="fas fa-key icon"></i>
+                    <input class="input" required type="password" name="pass" id="pass" placeholder="Enter your Password">
+                </div>
+                <div>
+                    
+                    <input class="btn" id="log" type="submit" value="Login">
+                    <input  class="btn" id="res" type="reset" value="Reset">
+                </div>
+            </form>
+            <script src="./jquery.slim.min.js"></script>
+            <script src="./bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

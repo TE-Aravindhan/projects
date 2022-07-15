@@ -1,0 +1,96 @@
+body{
+    background: orange;
+}
+#nav{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 8vh;
+}
+#home{
+    font-size: x-large;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: cursive;
+    color: wheat;
+    text-shadow: rgb(58, 55, 55) 5px 5px  8px;
+}
+
+#del{
+    width: 300px;
+    height: 300px; 
+    margin-left: 50px; 
+}
+#up{
+    width: 300px;
+    height: 300px;  
+    margin-left: 60px;   
+}
+#pro{
+    width: 300px;
+    height: 300px;    
+}
+#div1{
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 2px 4px 10px 4px rgb(163, 156, 156);
+}
+.img{
+    border-radius: 15px;
+    box-shadow: rgb(44, 48, 48) 17px 17px 10px;
+}
+#tile{
+    margin-left: 100px;
+    font-family: cursive;
+    color: darkred;
+
+}
+#d2{
+    background-color:orange;
+}
+#t2{
+    font-family: cursive;
+    color: darkblue;
+}
+#t3{
+    color: rgb(187, 7, 7);
+    padding-left: 10px;
+}
+#no{
+    background-color: green;
+    color:black;
+     border:none;
+    outline: none;
+    width: 60px;
+    font-size: medium;
+    font-family: cursive;
+    font-weight: bold;
+    box-shadow:rgb(62, 63, 58) 5px 5px 10px ;
+}
+#yes{
+    background-color: rgb(88, 22, 22);
+    color: wheat;
+    border:none;
+    outline: none;
+    width: 80px;
+    font-size: medium;
+    font-family: cursive;
+    font-weight: bold;
+    box-shadow:rgb(62, 63, 58) 5px 5px 10px ;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.btn:hover{
+    transform: scale(0.9) ;
+}
+#t1{
+    text-align: center;
+    margin-top: 80px;
+    font-family: cursive;
+    color: rgb(25, 22, 61);
+    text-shadow: rgb(17, 17, 17) 5px 5px 5px;
+}

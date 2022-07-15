@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./bootstrap-4.6.1-dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="reg.css">
+    <title>register</title>
+</head>
+<body>
+    <nav class="navbar" id="nav">
+		<form class="container-fluid justify-content-start">
+		 <a href="./welcome.html"><button class="btn" id="home" type="button">Home</button></a> 
+		  
+		</form>
+	  </nav>
+    <form action="./reg" method="post" id="form">
+        <h1 id="t1">Enter Your Details ✍️</h1>
+        <table>
+            <tr>
+                <td> <label for="name" class="lab">Name </label></td>
+                <td> <input class="input" required type="text" name="name" id="name" placeholder="Enter your Name"></td>
+            </tr>
+               
+               
+            <tr>
+                <td> <label for="doj"  class="lab">Date of Joining </label></td>
+                <td>
+                    <input class="input" required type="date" name="doj" id="doj"></td>
+            </tr>
+               
+           <tr>
+               <td><label for="salary"  class="lab">Salary </label></td>
+               <td><input class="input" required type="text" name="salary" id="salary" placeholder="Enter your Salary"></td>
+           </tr>
+              
+           <tr>
+               <td><label for="role"  class="lab">Role </label></td>
+               <td> <input class="input" required type="text" name="role" id="role" placeholder="Enter your Role"></td>
+           </tr>
+                
+               <tr>
+                   <td><label for="deptno"  class="lab">Department Number &emsp;</label></td>
+                   <td>
+                    <input class="input" required type="text" name="deptno" id="deptno" placeholder="Enter your Dept. No">
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                    <label for="password"  class="lab">Password </label>
+                   </td>
+                   <td>
+                    <input class="input" required type="password" name="password" id="password" placeholder="Enter your Password">
+                   </td>
+               </tr>
+                <tr>
+                    <td>
+                        <label for="hint"  class="lab">Password Hint </label>
+                    </td>
+                    <td>
+                        <input class="input" required type="text" name="hint" id="hint" placeholder="Enter the Hint">
+                    </td>
+                </tr>
+        </table>
+        <div>
+            <input class="btn" type="submit" name="reg" id="reg" value="Register">
+            <input class="btn" type="reset" value="Reset" id="res">
+        </div>
+    </form>
+</body>
+</html>

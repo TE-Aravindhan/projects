@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+    <link rel="stylesheet" href="./bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="function.css">
+</head>
+<body>
+  <nav class="navbar" id="nav">
+		<form class="container-fluid justify-content-start">
+		 <a href="./welcome.html"><button class="btn" id="home" type="button">Home</button></a>   
+		</form>
+	  </nav>
+    <script src="./jquery.slim.min.js"></script>
+    <script src="./bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+    <form action="">
+        <div>
+          <h1 id="t1">Click the icon you want proceed...</h1>
+        </div>
+        <div id="div1">
+            <a href="./details"><img class="img" id="pro" src="./media/profile-icon_1949906.jpg" alt=""></a>
+   
+            <a href="./update.html"><img id="up" class="img" src="./media/56061843-update-refresh-icon-yellow-square-button.jpg" alt=""></a>
+           <button type="button" class="btn" id="delete" data-toggle="modal" data-target="#mc">
+                <img id="del" class="img" src="./media/Capture.jpg" alt="">
+            </button>   
+            <div class="modal fade" id="mc" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div  class="modal-dialog modal-dialog-centered" role="document">
+                <div id="d2" class="modal-content">
+                  <div class="modal-header">
+                    <h1  class="modal-title"  id="tile" > ❌ Warning ❌ </h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h3 id="t2"> Are your sure?</h3>
+                  </div>
+                  <div>
+                    <h5 id="t3">It Delete your Details Permanently!!!</h5>
+                </div>
+                  <div class="modal-footer">
+                    <button type="button" id="no" class="btn btn-secondary" data-dismiss="modal">NO</button>
+                    <a href="./delete"><button type="button" id="yes" class="btn btn-primary">Yes</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
